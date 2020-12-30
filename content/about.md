@@ -1,8 +1,6 @@
 +++
 title = "About"
-date = "2014-04-09"
-[ author ]
-  name = "Kamal Elsayed"
+date = "2020-09-22"
 +++
 
 **Kamal Elsayed** aka **kamalinux**, 23 years old | Jr. Penetraion Tester - Red/Blue Teamer wannabe.

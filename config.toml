@@ -42,8 +42,6 @@ disableHugoGeneratorInject = false
   hrefTargetBlank = true
 
 [taxonomies]
-  category = "categories"
-  series   = "series"
 
 [params]
   dateform        = "Jan 2, 2006"
@@ -53,9 +51,8 @@ disableHugoGeneratorInject = false
 
   # Metadata mostly used in document's head
   description = "Kamal Elsayed @kamalinux Security Blog"
-  keywords = "Security, Red Team, InfoSecBlog, Cyber Security, Blue Team, Hacking, Bug Hunting"
-  images = [""]
-
+  keywords = "Security, Red Team, Info Sec, Cyber Security, Blue Team, Hacking, Bug Hunting"
+  images = ["/src/meta-tags-16a33a6a8531e519cc0936fbba0ad904e52d35f34a46c97a2c9f6f7dd7d336f24.png"]
   homeSubtitle = "~Document what I Learn~"
 
   # Prefix of link to the git commit detail page. GitInfo must be enabled.
@@ -111,7 +108,7 @@ disableHugoGeneratorInject = false
 
   [[params.social]]
     name = "email"
-    url  = "mailto:kamalinux@protonmail.com"
+    url  = "mailto:kamalinuxx@gmail.com"
 
   [[params.social]]
     name = "github"
@@ -123,7 +120,7 @@ disableHugoGeneratorInject = false
 
 [languages]
   [languages.en]
-    subtitle  = "InfoSecBlog"
+    subtitle  = "Blog"
     weight    = 1
 
 [menu]
@@ -136,18 +133,6 @@ disableHugoGeneratorInject = false
     name       = "Posts"
     url        = "posts/"
   [[menu.main]]
-    identifier = "feed"
-    name       = "Feed"
-    url        = "posts/index.xml"
-  [[menu.main]]
     identifier = "projects"
     name       = "Projects"
     url        = "projects/"
-  [[menu.main]]
-    identifier = "cv"
-    name       = "CV"
-    url        = "cv/"
-  [[menu.main]]
-    identifier = "series"
-    name       = "Series"
-    url        = "series/"

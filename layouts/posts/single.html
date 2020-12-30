@@ -8,9 +8,8 @@
           <polyline points="12 6 12 12 16 14"></polyline>
         </svg>
         {{ i18n "readingTime" .Page.ReadingTime }}
-
         {{ if .IsTranslated }} | {{ i18n "postAvailable" }}
-          {{ range .Translations }}
+        {{ range .Translations }}
               <a href="{{ .Permalink }}"><span class="flag flag-icon flag-icon-{{ index $.Site.Data.langFlags (.Lang) }} flag-icon-squared"></span></a>
           {{ end}}
         {{ end }}
@@ -18,9 +17,7 @@
     </div>
 
     <article>
-      <h1 class="post-title">
-        <a href="{{ .Permalink }}">{{ .Title | markdownify }}</a>
-      </h1>
+      <h1 class="post-title"><a href="{{ .Permalink }}">{{ .Title | markdownify }}</a></h1>
 
       {{- if .Params.toc }}
         <hr />
@@ -127,7 +124,6 @@
       </div>
     {{ end }}
 
-
     {{ if .Site.DisqusShortname }}
       {{ if not (eq .Params.Comments "false") }}
         <div id="comments">
@@ -135,6 +131,5 @@
         </div>
       {{ end }}
     {{ end }}
-
   </main>
 {{ end }}

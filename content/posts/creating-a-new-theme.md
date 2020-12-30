@@ -1,15 +1,9 @@
 ---
 author:
-  name: "Michael Henderson"
-date: 2014-09-28
+date: 2020-09-22
 linktitle: Creating a New Theme
-type:
-- post
-- posts
 title: Creating a New Theme
 weight: 10
-series:
-- Hugo 101
 ---
 
 

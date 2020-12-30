@@ -1,7 +1,6 @@
 +++
 title = "Projects"
-date = "2020-9-22"
-[ author ]
-  name = "Kamal Elsayed"
+date = "2020-09-22"
 +++
 
+Coming Soon
